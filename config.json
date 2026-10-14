@@ -1,0 +1,118 @@
+{
+  "about": "Frozen settings of the method and the rollout protocol. Changing any value means a new run.",
+  "pinned": {
+    "openpi_commit": "15a9616a00943ada6c20a0f158e3adb39df2ccac",
+    "openpi_patch": "env/openpi_attention_capture.patch",
+    "libero_para_commit": "5a2198299a6d7a49bdb3cd519c7e92ed803adf5f",
+    "checkpoint": "pi05_libero",
+    "checkpoint_fingerprint": "aae7b994f66893db",
+    "sam2_package_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4"
+  },
+  "rollout": {
+    "max_steps": 300,
+    "actions_per_call": 5,
+    "settle_steps": 10,
+    "camera_size": 256,
+    "image_size": 224,
+    "denoising_steps": 10,
+    "gate_tolerance": 1e-05
+  },
+  "label": {
+    "dwell_steps": 10,
+    "min_change": 0.02,
+    "settle_steps": 10
+  },
+  "head_selection": {
+    "init": 0
+  },
+  "candidates": {
+    "model": "facebook/sam2.1-hiera-small",
+    "revision": "ee5bba1d82bb8749febdf90f45e84b687142ba03",
+    "points_per_side": 32,
+    "min_area": 0.001,
+    "max_area": 0.8,
+    "max_borders": 1,
+    "max_iou": 0.9,
+    "robot_share": 0.5
+  },
+  "task_objects": {
+    "model": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "scale": 4,
+    "outline": 3,
+    "font": "DejaVuSans-Bold.ttf",
+    "font_size": 22,
+    "palette": [
+      [
+        255,
+        59,
+        48
+      ],
+      [
+        0,
+        122,
+        255
+      ],
+      [
+        52,
+        199,
+        89
+      ],
+      [
+        255,
+        149,
+        0
+      ],
+      [
+        175,
+        82,
+        222
+      ],
+      [
+        0,
+        199,
+        190
+      ],
+      [
+        255,
+        45,
+        85
+      ],
+      [
+        255,
+        204,
+        0
+      ],
+      [
+        88,
+        86,
+        214
+      ],
+      [
+        162,
+        132,
+        94
+      ],
+      [
+        90,
+        200,
+        250
+      ],
+      [
+        142,
+        142,
+        147
+      ]
+    ],
+    "max_new_tokens": 200,
+    "overlap": 0.5,
+    "prompt": "You are looking at a tabletop scene from a robot's camera. Image 1 is the scene. Image 2 is the same scene with candidate regions outlined and numbered.\n\nThe robot will carry out this instruction: \"{instruction}\"\n\nFrom start to finish, which objects will the robot's gripper, or an object it is holding, come into contact with to do this? Include the object the gripper takes hold of or acts on (picks up, pushes, opens, or turns), and the object it puts or moves that object onto, into, or next to, if there is one. Give every number whose region belongs to one of these objects, including any handle, knob, button, drawer, lid or other attached part of it. Leave out objects the instruction does not involve. If the instruction does not let you tell which objects are meant, set \"unclear\" to true.\n\nReply with JSON only, in this form:\n{\"objects\": \"<those objects in your own words>\", \"contact\": [<numbers>], \"unclear\": false}"
+  },
+  "detector": {
+    "top_k": 8,
+    "coverage": 0.1,
+    "weak": 0.4,
+    "share": 0.5,
+    "alarm_count": 5
+  }
+}

@@ -1,0 +1,2560 @@
+{
+ "name": "comp50",
+ "about": "Test set: 50 paraphrases per LIBERO-Goal task written with the LIBERO-Para taxonomy (object habitual/contextual x action variations), all run on one scene per task. Not the paper's benchmark.",
+ "seed": 7,
+ "sentences": {
+  "source": "listed",
+  "tasks": {
+   "open_the_middle_drawer_of_the_cabinet": {
+    "init": 27,
+    "sentences": [
+     {
+      "id": "obj_H_1",
+      "text": "open the middle pullout of the dresser",
+      "type": "same_polarity_habitual"
+     },
+     {
+      "id": "obj_C_1",
+      "text": "open the middle storage compartment of the storage chest",
+      "type": "same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_A_1",
+      "text": "steadily open the middle pull out drawer of the chest",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_2",
+      "text": "open the middle compartment of the sideboard smoothly",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_3",
+      "text": "calmly open the middle pullout of the cabinet",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_H_1",
+      "text": "pull open the middle pull out drawer of the chest of drawers",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_2",
+      "text": "slide open the middle compartment of the bureau",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_3",
+      "text": "pull open the middle pullout of the cabinet",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_C_1",
+      "text": "pull out the middle pull out drawer of the cupboard",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_2",
+      "text": "draw out the middle compartment of the dresser",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_3",
+      "text": "pull out the middle pullout of the cabinet",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_coord_1",
+      "text": "grab the handle of the middle pull out drawer of the chest and pull it open",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_2",
+      "text": "reach for the middle compartment of the sideboard and then slide it open",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_3",
+      "text": "grab the handle of the middle pullout of the cabinet and pull it open",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_subord_1",
+      "text": "pull the middle pull out drawer of the chest of drawers until it is open",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_2",
+      "text": "open the middle compartment of the bureau so that it stays open",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_3",
+      "text": "pull the middle pullout of the cabinet until it is open",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_embed_1",
+      "text": "could you please open the middle pull out drawer of the cupboard",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_2",
+      "text": "would you kindly open the middle compartment of the dresser",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_3",
+      "text": "would you be so kind as to open the middle pullout of the cabinet",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_need_1",
+      "text": "i need the middle pull out drawer of the chest open",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_2",
+      "text": "i want the middle compartment of the sideboard opened",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_3",
+      "text": "i need the middle pullout of the cabinet open",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_perm_1",
+      "text": "may i have the middle pull out drawer of the chest of drawers opened",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_2",
+      "text": "could i have the middle compartment of the bureau pulled open",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_3",
+      "text": "may i have the middle pullout of the cabinet opened",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_C_A_1",
+      "text": "quietly open the middle sliding compartment of the storage cabinet",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_2",
+      "text": "open the middle pull out compartment of the drawer chest carefully",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_3",
+      "text": "gently open the middle storage compartment of the cabinet",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_H_1",
+      "text": "pull open the middle sliding compartment of the drawer unit",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_2",
+      "text": "slide open the middle pull out compartment of the storage chest",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_3",
+      "text": "pull open the middle storage compartment of the cabinet",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_C_1",
+      "text": "pull out the middle sliding compartment of the storage cabinet",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_2",
+      "text": "draw out the middle pull out compartment of the drawer chest",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_3",
+      "text": "pull out the middle storage compartment of the cabinet",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_coord_1",
+      "text": "grab the handle of the middle sliding compartment of the drawer unit and pull it open",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_2",
+      "text": "reach for the middle pull out compartment of the storage chest and then slide it open",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_3",
+      "text": "grab the handle of the middle storage compartment of the cabinet and pull it open",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_subord_1",
+      "text": "pull the middle sliding compartment of the storage cabinet until it is open",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_2",
+      "text": "open the middle pull out compartment of the drawer chest so that it stays open",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_3",
+      "text": "pull the middle storage compartment of the cabinet until it is open",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_embed_1",
+      "text": "i would like you to open the middle sliding compartment of the drawer unit",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_2",
+      "text": "can you please open the middle pull out compartment of the storage chest",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_3",
+      "text": "could you please open the middle storage compartment of the cabinet",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_need_1",
+      "text": "i need the middle sliding compartment of the storage cabinet open",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_2",
+      "text": "i want the middle pull out compartment of the drawer chest opened",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_3",
+      "text": "i need the middle storage compartment of the cabinet open",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_perm_1",
+      "text": "may i have the middle sliding compartment of the drawer unit opened",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_2",
+      "text": "could i have the middle pull out compartment of the storage chest pulled open",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_3",
+      "text": "may i have the middle storage compartment of the cabinet opened",
+      "type": "same_polarity_contextual+permission_directive"
+     }
+    ]
+   },
+   "open_the_top_drawer_and_put_the_bowl_inside": {
+    "init": 43,
+    "sentences": [
+     {
+      "id": "obj_H_1",
+      "text": "open the top compartment and put the basin inside",
+      "type": "same_polarity_habitual"
+     },
+     {
+      "id": "obj_C_1",
+      "text": "open the top storage compartment and put the mixing bowl inside",
+      "type": "same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_A_1",
+      "text": "slowly open the top pullout and put the soup bowl inside",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_2",
+      "text": "open the top pull out drawer and steadily put the cereal bowl inside",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_3",
+      "text": "smoothly open the top compartment and put the bowl inside",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_H_1",
+      "text": "pull open the top pullout and place the rice bowl inside",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_2",
+      "text": "slide open the top pull out drawer and set the dessert bowl inside",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_3",
+      "text": "pull open the top compartment and place the bowl inside",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_C_1",
+      "text": "pull out the top pullout and store the noodle bowl inside",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_2",
+      "text": "draw out the top pull out drawer and stow the breakfast bowl inside it",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_3",
+      "text": "pull out the top compartment and store the bowl inside",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_coord_1",
+      "text": "first open the top pullout then put the basin inside it",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_2",
+      "text": "open the top pull out drawer and after that place the soup bowl in it",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_3",
+      "text": "first open the top compartment then put the bowl inside it",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_subord_1",
+      "text": "after opening the top pullout put the cereal bowl inside",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_2",
+      "text": "open the top pull out drawer so that you can put the rice bowl inside",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_3",
+      "text": "after opening the top compartment put the bowl inside",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_embed_1",
+      "text": "could you please open the top pullout and put the dessert bowl inside",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_2",
+      "text": "would you kindly open the top pull out drawer and put the noodle bowl inside",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_3",
+      "text": "would you be so kind as to open the top compartment and put the bowl inside",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_need_1",
+      "text": "i need the top pullout open with the breakfast bowl inside",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_2",
+      "text": "i want the basin put inside the opened top pull out drawer",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_3",
+      "text": "i need the top compartment open with the bowl inside",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_perm_1",
+      "text": "may i have the top pullout opened and the soup bowl put inside",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_2",
+      "text": "could i have the cereal bowl placed inside the opened top pull out drawer",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_3",
+      "text": "may i have the top compartment opened and the bowl put inside",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_C_A_1",
+      "text": "calmly open the top sliding compartment and put the serving bowl inside",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_2",
+      "text": "open the top pull out compartment and quietly put the food bowl inside",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_3",
+      "text": "carefully open the top storage compartment and put the bowl inside",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_H_1",
+      "text": "pull open the top sliding compartment and place the kitchen bowl inside",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_2",
+      "text": "slide open the top pull out compartment and set the dining bowl inside",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_3",
+      "text": "pull open the top storage compartment and place the bowl inside",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_C_1",
+      "text": "pull out the top sliding compartment and store the eating bowl inside",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_2",
+      "text": "draw out the top pull out compartment and stow the mixing bowl inside it",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_3",
+      "text": "pull out the top storage compartment and store the bowl inside",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_coord_1",
+      "text": "first open the top sliding compartment then put the serving bowl inside it",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_2",
+      "text": "open the top pull out compartment and after that place the food bowl in it",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_3",
+      "text": "first open the top storage compartment then put the bowl inside it",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_subord_1",
+      "text": "after opening the top sliding compartment put the kitchen bowl inside",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_2",
+      "text": "open the top pull out compartment so that you can put the dining bowl inside",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_3",
+      "text": "after opening the top storage compartment put the bowl inside",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_embed_1",
+      "text": "i would like you to open the top sliding compartment and put the eating bowl inside",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_2",
+      "text": "can you please open the top pull out compartment and put the mixing bowl inside",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_3",
+      "text": "could you please open the top storage compartment and put the bowl inside",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_need_1",
+      "text": "i need the top sliding compartment open with the serving bowl inside",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_2",
+      "text": "i want the food bowl put inside the opened top pull out compartment",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_3",
+      "text": "i need the top storage compartment open with the bowl inside",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_perm_1",
+      "text": "may i have the top sliding compartment opened and the kitchen bowl put inside",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_2",
+      "text": "could i have the dining bowl placed inside the opened top pull out compartment",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_3",
+      "text": "may i have the top storage compartment opened and the bowl put inside",
+      "type": "same_polarity_contextual+permission_directive"
+     }
+    ]
+   },
+   "push_the_plate_to_the_front_of_the_stove": {
+    "init": 18,
+    "sentences": [
+     {
+      "id": "obj_H_1",
+      "text": "push the platter to the front of the cooktop",
+      "type": "same_polarity_habitual"
+     },
+     {
+      "id": "obj_C_1",
+      "text": "push the dinner plate to the front of the cooking appliance",
+      "type": "same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_A_1",
+      "text": "slowly push the saucer to the front of the stovetop",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_2",
+      "text": "push the side plate steadily to the front of the hotplate",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_3",
+      "text": "smoothly push the dessert plate to the front of the stove",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_H_1",
+      "text": "slide the salad plate to the front of the range top",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_2",
+      "text": "move the lunch plate to the front of the cooker",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_3",
+      "text": "slide the platter to the front of the stove",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_C_1",
+      "text": "shove the saucer to the front of the burner",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_2",
+      "text": "shift the side plate over to the front of the electric range",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_3",
+      "text": "shift the salad plate over to the front of the stove",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_coord_1",
+      "text": "go to the lunch plate and push it to the front of the cooking range",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_2",
+      "text": "reach behind the platter and slide it to the front of the cooktop",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_3",
+      "text": "go to the saucer and push it to the front of the stove",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_subord_1",
+      "text": "push the side plate until it reaches the front of the stovetop",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_2",
+      "text": "push the dessert plate so that it ends up in front of the hotplate",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_3",
+      "text": "push the salad plate until it reaches the front of the stove",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_embed_1",
+      "text": "could you please push the lunch plate to the front of the range top",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_2",
+      "text": "would you kindly push the platter to the front of the cooker",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_3",
+      "text": "would you be so kind as to push the saucer to the front of the stove",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_need_1",
+      "text": "i need the side plate in front of the burner",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_2",
+      "text": "i want the dessert plate pushed to the front of the electric range",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_3",
+      "text": "i need the salad plate in front of the stove",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_perm_1",
+      "text": "may i have the lunch plate pushed to the front of the cooking range",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_2",
+      "text": "could i have the platter moved to the front of the cooktop",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_3",
+      "text": "could i have the side plate moved to the front of the stove",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_C_A_1",
+      "text": "carefully push the serving plate to the front of the heating appliance",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_2",
+      "text": "push the dining plate gently to the front of the kitchen appliance",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_3",
+      "text": "slowly push the food plate to the front of the stove",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_H_1",
+      "text": "slide the dinner plate to the front of the cooking surface",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_2",
+      "text": "move the serving plate to the front of the cooking unit",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_3",
+      "text": "slide the dining plate to the front of the stove",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_C_1",
+      "text": "shove the food plate to the front of the cooking device",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_2",
+      "text": "shift the dinner plate over to the front of the heating device",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_3",
+      "text": "shove the serving plate to the front of the stove",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_coord_1",
+      "text": "go to the dining plate and push it to the front of the cooking appliance",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_2",
+      "text": "reach behind the food plate and slide it to the front of the heating appliance",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_3",
+      "text": "go to the dinner plate and push it to the front of the stove",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_subord_1",
+      "text": "push the serving plate until it reaches the front of the kitchen appliance",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_2",
+      "text": "push the dining plate so that it ends up in front of the cooking surface",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_3",
+      "text": "push the food plate until it reaches the front of the stove",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_embed_1",
+      "text": "i would like you to push the dinner plate to the front of the cooking unit",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_2",
+      "text": "can you please push the serving plate to the front of the cooking device",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_3",
+      "text": "could you please push the dining plate to the front of the stove",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_need_1",
+      "text": "i need the food plate in front of the heating device",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_2",
+      "text": "i want the dinner plate pushed to the front of the cooking appliance",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_3",
+      "text": "i need the serving plate in front of the stove",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_perm_1",
+      "text": "may i have the dining plate pushed to the front of the heating appliance",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_2",
+      "text": "could i have the food plate moved to the front of the kitchen appliance",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_3",
+      "text": "may i have the dinner plate pushed to the front of the stove",
+      "type": "same_polarity_contextual+permission_directive"
+     }
+    ]
+   },
+   "put_the_bowl_on_the_plate": {
+    "init": 41,
+    "sentences": [
+     {
+      "id": "obj_H_1",
+      "text": "put the soup bowl on the saucer",
+      "type": "same_polarity_habitual"
+     },
+     {
+      "id": "obj_C_1",
+      "text": "put the food bowl on the dining plate",
+      "type": "same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_A_1",
+      "text": "calmly put the cereal bowl on the side plate",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_2",
+      "text": "put the rice bowl on the dessert plate quietly",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_3",
+      "text": "carefully put the dessert bowl on the plate",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_H_1",
+      "text": "place the noodle bowl on the salad plate",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_2",
+      "text": "set the breakfast bowl on the lunch plate",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_3",
+      "text": "place the basin on the plate",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_C_1",
+      "text": "move the soup bowl onto the platter",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_2",
+      "text": "transfer the cereal bowl onto the saucer",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_3",
+      "text": "move the rice bowl onto the plate",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_coord_1",
+      "text": "pick up the dessert bowl and place it on the side plate",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_2",
+      "text": "grab the noodle bowl and then set it down on the dessert plate",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_3",
+      "text": "pick up the breakfast bowl and place it on the plate",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_subord_1",
+      "text": "pick up the basin so that you can put it on the salad plate",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_2",
+      "text": "after picking up the soup bowl put it on the lunch plate",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_3",
+      "text": "pick up the cereal bowl so that you can put it on the plate",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_embed_1",
+      "text": "could you please put the rice bowl on the platter",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_2",
+      "text": "would you kindly put the dessert bowl on the saucer",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_3",
+      "text": "would you be so kind as to put the noodle bowl on the plate",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_need_1",
+      "text": "i need the breakfast bowl on the side plate",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_2",
+      "text": "i want the basin placed on the dessert plate",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_3",
+      "text": "i need the soup bowl on the plate",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_perm_1",
+      "text": "may i have the cereal bowl put on the salad plate",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_2",
+      "text": "could i have the rice bowl placed on the lunch plate",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_3",
+      "text": "may i have the dessert bowl put on the plate",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_C_A_1",
+      "text": "gently put the kitchen bowl on the food plate",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_2",
+      "text": "put the dining bowl on the dinner plate slowly",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_3",
+      "text": "steadily put the eating bowl on the plate",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_H_1",
+      "text": "place the mixing bowl on the serving plate",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_2",
+      "text": "set the serving bowl on the dining plate",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_3",
+      "text": "place the food bowl on the plate",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_C_1",
+      "text": "move the kitchen bowl onto the food plate",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_2",
+      "text": "transfer the dining bowl onto the dinner plate",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_3",
+      "text": "move the eating bowl onto the plate",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_coord_1",
+      "text": "pick up the mixing bowl and place it on the serving plate",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_2",
+      "text": "grab the serving bowl and then set it down on the dining plate",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_3",
+      "text": "pick up the food bowl and place it on the plate",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_subord_1",
+      "text": "pick up the kitchen bowl so that you can put it on the food plate",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_2",
+      "text": "after picking up the dining bowl put it on the dinner plate",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_3",
+      "text": "pick up the eating bowl so that you can put it on the plate",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_embed_1",
+      "text": "i would like you to put the mixing bowl on the serving plate",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_2",
+      "text": "can you please put the serving bowl on the dining plate",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_3",
+      "text": "could you please put the food bowl on the plate",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_need_1",
+      "text": "i need the kitchen bowl on the food plate",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_2",
+      "text": "i want the dining bowl placed on the dinner plate",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_3",
+      "text": "i need the eating bowl on the plate",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_perm_1",
+      "text": "may i have the mixing bowl put on the serving plate",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_2",
+      "text": "could i have the serving bowl placed on the dining plate",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_3",
+      "text": "may i have the food bowl put on the plate",
+      "type": "same_polarity_contextual+permission_directive"
+     }
+    ]
+   },
+   "put_the_bowl_on_the_stove": {
+    "init": 30,
+    "sentences": [
+     {
+      "id": "obj_H_1",
+      "text": "put the basin on the cooktop",
+      "type": "same_polarity_habitual"
+     },
+     {
+      "id": "obj_C_1",
+      "text": "put the mixing bowl on the cooking appliance",
+      "type": "same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_A_1",
+      "text": "slowly put the soup bowl on the stovetop",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_2",
+      "text": "put the cereal bowl on the hotplate steadily",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_3",
+      "text": "smoothly put the rice bowl on the stove",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_H_1",
+      "text": "place the dessert bowl on the range top",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_2",
+      "text": "set the noodle bowl on the cooker",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_3",
+      "text": "place the breakfast bowl on the stove",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_C_1",
+      "text": "move the basin onto the burner",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_2",
+      "text": "transfer the soup bowl onto the electric range",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_3",
+      "text": "move the cereal bowl onto the stove",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_coord_1",
+      "text": "pick up the rice bowl and place it on the cooking range",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_2",
+      "text": "grab the dessert bowl and then set it down on the cooktop",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_3",
+      "text": "pick up the noodle bowl and place it on the stove",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_subord_1",
+      "text": "pick up the breakfast bowl so that you can put it on the stovetop",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_2",
+      "text": "after picking up the basin put it on the hotplate",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_3",
+      "text": "pick up the soup bowl so that you can put it on the stove",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_embed_1",
+      "text": "could you please put the cereal bowl on the range top",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_2",
+      "text": "would you kindly put the rice bowl on the cooker",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_3",
+      "text": "would you be so kind as to put the dessert bowl on the stove",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_need_1",
+      "text": "i need the noodle bowl on the burner",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_2",
+      "text": "i want the breakfast bowl placed on the electric range",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_3",
+      "text": "i need the basin on the stove",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_perm_1",
+      "text": "may i have the soup bowl put on the cooking range",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_2",
+      "text": "could i have the cereal bowl placed on the cooktop",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_3",
+      "text": "may i have the rice bowl put on the stove",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_C_A_1",
+      "text": "calmly put the serving bowl on the heating appliance",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_2",
+      "text": "put the food bowl on the kitchen appliance quietly",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_3",
+      "text": "carefully put the kitchen bowl on the stove",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_H_1",
+      "text": "place the dining bowl on the cooking surface",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_2",
+      "text": "set the eating bowl on the cooking unit",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_3",
+      "text": "place the mixing bowl on the stove",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_C_1",
+      "text": "move the serving bowl onto the cooking device",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_2",
+      "text": "transfer the food bowl onto the heating device",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_3",
+      "text": "move the kitchen bowl onto the stove",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_coord_1",
+      "text": "pick up the dining bowl and place it on the cooking appliance",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_2",
+      "text": "grab the eating bowl and then set it down on the heating appliance",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_3",
+      "text": "pick up the mixing bowl and place it on the stove",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_subord_1",
+      "text": "pick up the serving bowl so that you can put it on the kitchen appliance",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_2",
+      "text": "after picking up the food bowl put it on the cooking surface",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_3",
+      "text": "pick up the kitchen bowl so that you can put it on the stove",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_embed_1",
+      "text": "i would like you to put the dining bowl on the cooking unit",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_2",
+      "text": "can you please put the eating bowl on the cooking device",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_3",
+      "text": "would you kindly put the serving bowl on the stove",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_need_1",
+      "text": "i need the food bowl on the heating device",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_2",
+      "text": "i want the kitchen bowl placed on the cooking appliance",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_3",
+      "text": "i need the dining bowl on the stove",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_perm_1",
+      "text": "may i have the eating bowl put on the heating appliance",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_2",
+      "text": "could i have the mixing bowl placed on the kitchen appliance",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_3",
+      "text": "may i have the serving bowl put on the stove",
+      "type": "same_polarity_contextual+permission_directive"
+     }
+    ]
+   },
+   "put_the_bowl_on_top_of_the_cabinet": {
+    "init": 27,
+    "sentences": [
+     {
+      "id": "obj_H_1",
+      "text": "put the soup bowl on top of the dresser",
+      "type": "same_polarity_habitual"
+     },
+     {
+      "id": "obj_C_1",
+      "text": "put the mixing bowl on top of the storage chest",
+      "type": "same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_A_1",
+      "text": "steadily put the cereal bowl on top of the chest",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_2",
+      "text": "put the rice bowl on top of the sideboard smoothly",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_3",
+      "text": "calmly put the dessert bowl on top of the cabinet",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_H_1",
+      "text": "place the noodle bowl on top of the chest of drawers",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_2",
+      "text": "set the breakfast bowl on top of the bureau",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_3",
+      "text": "place the basin on top of the cabinet",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_C_1",
+      "text": "move the soup bowl onto the top of the cupboard",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_2",
+      "text": "transfer the cereal bowl onto the top of the dresser",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_3",
+      "text": "move the rice bowl onto the top of the cabinet",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_coord_1",
+      "text": "pick up the dessert bowl and place it on top of the chest",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_2",
+      "text": "grab the noodle bowl and then set it down on top of the sideboard",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_3",
+      "text": "pick up the breakfast bowl and place it on top of the cabinet",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_subord_1",
+      "text": "pick up the basin so that you can put it on top of the chest of drawers",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_2",
+      "text": "after picking up the soup bowl put it on top of the bureau",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_3",
+      "text": "pick up the cereal bowl so that you can put it on top of the cabinet",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_embed_1",
+      "text": "could you please put the rice bowl on top of the cupboard",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_2",
+      "text": "would you kindly put the dessert bowl on top of the dresser",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_3",
+      "text": "would you be so kind as to put the noodle bowl on top of the cabinet",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_need_1",
+      "text": "i need the breakfast bowl on top of the chest",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_2",
+      "text": "i want the basin placed on top of the sideboard",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_3",
+      "text": "i need the soup bowl on top of the cabinet",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_perm_1",
+      "text": "may i have the cereal bowl put on top of the chest of drawers",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_2",
+      "text": "could i have the rice bowl placed on top of the bureau",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_3",
+      "text": "may i have the dessert bowl put on top of the cabinet",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_C_A_1",
+      "text": "quietly put the serving bowl on top of the storage cabinet",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_2",
+      "text": "put the food bowl on top of the drawer chest carefully",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_3",
+      "text": "gently put the kitchen bowl on top of the cabinet",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_H_1",
+      "text": "place the dining bowl on top of the drawer unit",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_2",
+      "text": "set the eating bowl on top of the storage chest",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_3",
+      "text": "place the mixing bowl on top of the cabinet",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_C_1",
+      "text": "move the serving bowl onto the top of the storage cabinet",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_2",
+      "text": "transfer the food bowl onto the top of the drawer chest",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_3",
+      "text": "move the kitchen bowl onto the top of the cabinet",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_coord_1",
+      "text": "pick up the dining bowl and place it on top of the drawer unit",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_2",
+      "text": "grab the eating bowl and then set it down on top of the storage chest",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_3",
+      "text": "pick up the mixing bowl and place it on top of the cabinet",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_subord_1",
+      "text": "pick up the serving bowl so that you can put it on top of the storage cabinet",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_2",
+      "text": "after picking up the food bowl put it on top of the drawer chest",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_3",
+      "text": "pick up the kitchen bowl so that you can put it on top of the cabinet",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_embed_1",
+      "text": "i would like you to put the dining bowl on top of the drawer unit",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_2",
+      "text": "can you please put the eating bowl on top of the storage chest",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_3",
+      "text": "could you please put the mixing bowl on top of the cabinet",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_need_1",
+      "text": "i need the serving bowl on top of the storage cabinet",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_2",
+      "text": "i want the food bowl placed on top of the drawer chest",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_3",
+      "text": "i need the kitchen bowl on top of the cabinet",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_perm_1",
+      "text": "may i have the dining bowl put on top of the drawer unit",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_2",
+      "text": "could i have the eating bowl placed on top of the storage chest",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_3",
+      "text": "may i have the mixing bowl put on top of the cabinet",
+      "type": "same_polarity_contextual+permission_directive"
+     }
+    ]
+   },
+   "put_the_cream_cheese_in_the_bowl": {
+    "init": 47,
+    "sentences": [
+     {
+      "id": "obj_H_1",
+      "text": "put the cheese block in the basin",
+      "type": "same_polarity_habitual"
+     },
+     {
+      "id": "obj_C_1",
+      "text": "put the dairy package in the mixing bowl",
+      "type": "same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_A_1",
+      "text": "slowly put the cheese box in the soup bowl",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_2",
+      "text": "put the cheese pack in the cereal bowl steadily",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_3",
+      "text": "smoothly put the cheese package in the bowl",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_H_1",
+      "text": "place the cheese block in the rice bowl",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_2",
+      "text": "set the cheese box in the dessert bowl",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_3",
+      "text": "place the cheese pack in the bowl",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_C_1",
+      "text": "move the cheese package into the noodle bowl",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_2",
+      "text": "transfer the cheese block into the breakfast bowl",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_3",
+      "text": "move the cheese box into the bowl",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_coord_1",
+      "text": "pick up the cheese pack and place it in the basin",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_2",
+      "text": "grab the cheese package and then set it down in the soup bowl",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_3",
+      "text": "pick up the cheese block and place it in the bowl",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_subord_1",
+      "text": "pick up the cheese box so that you can put it in the cereal bowl",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_2",
+      "text": "after picking up the cheese pack put it in the rice bowl",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_3",
+      "text": "pick up the cheese package so that you can put it in the bowl",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_embed_1",
+      "text": "could you please put the cheese block in the dessert bowl",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_2",
+      "text": "would you kindly put the cheese box in the noodle bowl",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_3",
+      "text": "would you be so kind as to put the cheese pack in the bowl",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_need_1",
+      "text": "i need the cheese package in the breakfast bowl",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_2",
+      "text": "i want the cheese block placed in the basin",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_3",
+      "text": "i need the cheese box in the bowl",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_perm_1",
+      "text": "may i have the cheese pack put in the soup bowl",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_2",
+      "text": "could i have the cheese package placed in the cereal bowl",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_3",
+      "text": "may i have the cheese block put in the bowl",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_C_A_1",
+      "text": "calmly put the dairy product in the serving bowl",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_2",
+      "text": "put the dairy box in the food bowl quietly",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_3",
+      "text": "carefully put the dairy pack in the bowl",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_H_1",
+      "text": "place the dairy package in the kitchen bowl",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_2",
+      "text": "set the dairy product in the dining bowl",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_3",
+      "text": "place the dairy box in the bowl",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_C_1",
+      "text": "move the dairy pack into the eating bowl",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_2",
+      "text": "transfer the dairy package into the mixing bowl",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_3",
+      "text": "move the dairy product into the bowl",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_coord_1",
+      "text": "pick up the dairy box and place it in the serving bowl",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_2",
+      "text": "grab the dairy pack and then set it down in the food bowl",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_3",
+      "text": "pick up the dairy package and place it in the bowl",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_subord_1",
+      "text": "pick up the dairy product so that you can put it in the kitchen bowl",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_2",
+      "text": "after picking up the dairy box put it in the dining bowl",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_3",
+      "text": "pick up the dairy pack so that you can put it in the bowl",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_embed_1",
+      "text": "i would like you to put the dairy package in the eating bowl",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_2",
+      "text": "can you please put the dairy product in the mixing bowl",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_3",
+      "text": "could you please put the dairy box in the bowl",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_need_1",
+      "text": "i need the dairy pack in the serving bowl",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_2",
+      "text": "i want the dairy package placed in the food bowl",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_3",
+      "text": "i need the dairy product in the bowl",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_perm_1",
+      "text": "may i have the dairy box put in the kitchen bowl",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_2",
+      "text": "could i have the dairy pack placed in the dining bowl",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_3",
+      "text": "may i have the dairy package put in the bowl",
+      "type": "same_polarity_contextual+permission_directive"
+     }
+    ]
+   },
+   "put_the_wine_bottle_on_the_rack": {
+    "init": 23,
+    "sentences": [
+     {
+      "id": "obj_H_1",
+      "text": "put the bottle on the wine stand",
+      "type": "same_polarity_habitual"
+     },
+     {
+      "id": "obj_C_1",
+      "text": "put the beverage bottle on the bottle stand",
+      "type": "same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_A_1",
+      "text": "slowly put the bottle of wine on the bottle holder",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_2",
+      "text": "put the glass bottle on the wine holder steadily",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_3",
+      "text": "smoothly put the drink bottle on the rack",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_H_1",
+      "text": "place the bottle on the wine stand",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_2",
+      "text": "set the bottle of wine on the bottle holder",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_3",
+      "text": "place the glass bottle on the rack",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_C_1",
+      "text": "move the drink bottle onto the wine holder",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_2",
+      "text": "transfer the bottle onto the wine stand",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_3",
+      "text": "move the bottle of wine onto the rack",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_coord_1",
+      "text": "pick up the glass bottle and place it on the bottle holder",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_2",
+      "text": "grab the drink bottle and then set it down on the wine holder",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_3",
+      "text": "pick up the bottle and place it on the rack",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_subord_1",
+      "text": "pick up the bottle of wine so that you can put it on the wine stand",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_2",
+      "text": "after picking up the glass bottle put it on the bottle holder",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_3",
+      "text": "pick up the drink bottle so that you can put it on the rack",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_embed_1",
+      "text": "could you please put the bottle on the wine holder",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_2",
+      "text": "would you kindly put the bottle of wine on the wine stand",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_3",
+      "text": "would you be so kind as to put the glass bottle on the rack",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_need_1",
+      "text": "i need the drink bottle on the bottle holder",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_2",
+      "text": "i want the bottle placed on the wine holder",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_3",
+      "text": "i need the bottle of wine on the rack",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_perm_1",
+      "text": "may i have the glass bottle put on the wine stand",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_2",
+      "text": "could i have the drink bottle placed on the bottle holder",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_3",
+      "text": "may i have the bottle put on the rack",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_C_A_1",
+      "text": "calmly put the alcohol bottle on the storage rack",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_2",
+      "text": "put the liquor bottle on the bottle storage quietly",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_3",
+      "text": "carefully put the beverage bottle on the rack",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_H_1",
+      "text": "place the alcohol bottle on the bottle stand",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_2",
+      "text": "set the liquor bottle on the storage rack",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_3",
+      "text": "place the beverage bottle on the rack",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_C_1",
+      "text": "move the alcohol bottle onto the bottle storage",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_2",
+      "text": "transfer the liquor bottle onto the bottle stand",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_3",
+      "text": "move the beverage bottle onto the rack",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_coord_1",
+      "text": "pick up the alcohol bottle and place it on the storage rack",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_2",
+      "text": "grab the liquor bottle and then set it down on the bottle storage",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_3",
+      "text": "pick up the beverage bottle and place it on the rack",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_subord_1",
+      "text": "pick up the alcohol bottle so that you can put it on the bottle stand",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_2",
+      "text": "after picking up the liquor bottle put it on the storage rack",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_3",
+      "text": "pick up the beverage bottle so that you can put it on the rack",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_embed_1",
+      "text": "i would like you to put the alcohol bottle on the bottle storage",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_2",
+      "text": "can you please put the liquor bottle on the bottle stand",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_3",
+      "text": "could you please put the beverage bottle on the rack",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_need_1",
+      "text": "i need the alcohol bottle on the storage rack",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_2",
+      "text": "i want the liquor bottle placed on the bottle storage",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_3",
+      "text": "i need the beverage bottle on the rack",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_perm_1",
+      "text": "may i have the alcohol bottle put on the bottle stand",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_2",
+      "text": "could i have the liquor bottle placed on the storage rack",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_3",
+      "text": "may i have the beverage bottle put on the rack",
+      "type": "same_polarity_contextual+permission_directive"
+     }
+    ]
+   },
+   "put_the_wine_bottle_on_top_of_the_cabinet": {
+    "init": 37,
+    "sentences": [
+     {
+      "id": "obj_H_1",
+      "text": "put the bottle on top of the cupboard",
+      "type": "same_polarity_habitual"
+     },
+     {
+      "id": "obj_C_1",
+      "text": "put the beverage bottle on top of the storage chest",
+      "type": "same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_A_1",
+      "text": "slowly put the bottle of wine on top of the dresser",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_2",
+      "text": "put the glass bottle on top of the chest steadily",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_3",
+      "text": "smoothly put the drink bottle on top of the cabinet",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_H_1",
+      "text": "place the bottle on top of the sideboard",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_2",
+      "text": "set the bottle of wine on top of the chest of drawers",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_3",
+      "text": "place the glass bottle on top of the cabinet",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_C_1",
+      "text": "move the drink bottle onto the top of the bureau",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_2",
+      "text": "transfer the bottle onto the top of the cupboard",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_3",
+      "text": "move the bottle of wine onto the top of the cabinet",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_coord_1",
+      "text": "pick up the glass bottle and place it on top of the dresser",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_2",
+      "text": "grab the drink bottle and then set it down on top of the chest",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_3",
+      "text": "pick up the bottle and place it on top of the cabinet",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_subord_1",
+      "text": "pick up the bottle of wine so that you can put it on top of the sideboard",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_2",
+      "text": "after picking up the glass bottle put it on top of the chest of drawers",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_3",
+      "text": "pick up the drink bottle so that you can put it on top of the cabinet",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_embed_1",
+      "text": "could you please put the bottle on top of the bureau",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_2",
+      "text": "would you kindly put the bottle of wine on top of the cupboard",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_3",
+      "text": "would you be so kind as to put the glass bottle on top of the cabinet",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_need_1",
+      "text": "i need the drink bottle on top of the dresser",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_2",
+      "text": "i want the bottle placed on top of the chest",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_3",
+      "text": "i need the bottle of wine on top of the cabinet",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_perm_1",
+      "text": "may i have the glass bottle put on top of the sideboard",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_2",
+      "text": "could i have the drink bottle placed on top of the chest of drawers",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_3",
+      "text": "may i have the bottle put on top of the cabinet",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_C_A_1",
+      "text": "calmly put the alcohol bottle on top of the storage cabinet",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_2",
+      "text": "put the liquor bottle on top of the drawer chest quietly",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_3",
+      "text": "carefully put the beverage bottle on top of the cabinet",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_H_1",
+      "text": "place the alcohol bottle on top of the drawer unit",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_2",
+      "text": "set the liquor bottle on top of the storage chest",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_3",
+      "text": "place the beverage bottle on top of the cabinet",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_C_1",
+      "text": "move the alcohol bottle onto the top of the storage cabinet",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_2",
+      "text": "transfer the liquor bottle onto the top of the drawer chest",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_3",
+      "text": "move the beverage bottle onto the top of the cabinet",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_coord_1",
+      "text": "pick up the alcohol bottle and place it on top of the drawer unit",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_2",
+      "text": "grab the liquor bottle and then set it down on top of the storage chest",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_3",
+      "text": "pick up the beverage bottle and place it on top of the cabinet",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_subord_1",
+      "text": "pick up the alcohol bottle so that you can put it on top of the storage cabinet",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_2",
+      "text": "after picking up the liquor bottle put it on top of the drawer chest",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_3",
+      "text": "pick up the beverage bottle so that you can put it on top of the cabinet",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_embed_1",
+      "text": "i would like you to put the alcohol bottle on top of the drawer unit",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_2",
+      "text": "can you please put the liquor bottle on top of the storage chest",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_3",
+      "text": "could you please put the beverage bottle on top of the cabinet",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_need_1",
+      "text": "i need the alcohol bottle on top of the storage cabinet",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_2",
+      "text": "i want the liquor bottle placed on top of the drawer chest",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_3",
+      "text": "i need the beverage bottle on top of the cabinet",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_perm_1",
+      "text": "may i have the alcohol bottle put on top of the drawer unit",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_2",
+      "text": "could i have the liquor bottle placed on top of the storage chest",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_3",
+      "text": "may i have the beverage bottle put on top of the cabinet",
+      "type": "same_polarity_contextual+permission_directive"
+     }
+    ]
+   },
+   "turn_on_the_stove": {
+    "init": 40,
+    "sentences": [
+     {
+      "id": "obj_H_1",
+      "text": "turn on the stovetop",
+      "type": "same_polarity_habitual"
+     },
+     {
+      "id": "obj_C_1",
+      "text": "turn on the cooking appliance",
+      "type": "same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_A_1",
+      "text": "steadily turn on the hotplate",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_2",
+      "text": "turn on the range top smoothly",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_A_3",
+      "text": "calmly turn on the cooker",
+      "type": "same_polarity_habitual+addition_deletion"
+     },
+     {
+      "id": "comp_H_H_1",
+      "text": "turn the electric range on",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_2",
+      "text": "turn the cooking range on",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_H_3",
+      "text": "turn the stovetop on",
+      "type": "same_polarity_habitual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_H_C_1",
+      "text": "power on the hotplate",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_2",
+      "text": "fire up the range top",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_C_3",
+      "text": "fire up the burner",
+      "type": "same_polarity_habitual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_H_coord_1",
+      "text": "reach for the knob of the electric range and turn it on",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_2",
+      "text": "go to the cooking range and switch it on",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_coord_3",
+      "text": "reach for the knob of the cooktop and turn it on",
+      "type": "same_polarity_habitual+coordination"
+     },
+     {
+      "id": "comp_H_subord_1",
+      "text": "turn the knob so that the stovetop is on",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_2",
+      "text": "turn on the hotplate so that it starts heating",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_subord_3",
+      "text": "turn the knob so that the range top is on",
+      "type": "same_polarity_habitual+subordination"
+     },
+     {
+      "id": "comp_H_embed_1",
+      "text": "could you please turn on the cooker",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_2",
+      "text": "would you kindly turn on the burner",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_embed_3",
+      "text": "would you be so kind as to turn on the electric range",
+      "type": "same_polarity_habitual+embedded_imperative"
+     },
+     {
+      "id": "comp_H_need_1",
+      "text": "i need the cooking range on",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_2",
+      "text": "i want the cooktop turned on",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_need_3",
+      "text": "i need the stovetop on",
+      "type": "same_polarity_habitual+need_statement"
+     },
+     {
+      "id": "comp_H_perm_1",
+      "text": "may i have the hotplate turned on",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_2",
+      "text": "could i have the range top switched on",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_H_perm_3",
+      "text": "could i have the burner switched on",
+      "type": "same_polarity_habitual+permission_directive"
+     },
+     {
+      "id": "comp_C_A_1",
+      "text": "steadily turn on the heating appliance",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_2",
+      "text": "turn on the kitchen appliance smoothly",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_A_3",
+      "text": "calmly turn on the cooking surface",
+      "type": "same_polarity_contextual+addition_deletion"
+     },
+     {
+      "id": "comp_C_H_1",
+      "text": "switch on the cooking unit",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_2",
+      "text": "turn the cooking device on",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_H_3",
+      "text": "switch on the heating device",
+      "type": "same_polarity_contextual+same_polarity_habitual"
+     },
+     {
+      "id": "comp_C_C_1",
+      "text": "power on the cooking appliance",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_2",
+      "text": "fire up the heating appliance",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_C_3",
+      "text": "power on the kitchen appliance",
+      "type": "same_polarity_contextual+same_polarity_contextual"
+     },
+     {
+      "id": "comp_C_coord_1",
+      "text": "reach for the knob of the cooking surface and turn it on",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_2",
+      "text": "go to the cooking unit and switch it on",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_coord_3",
+      "text": "reach for the knob of the cooking device and turn it on",
+      "type": "same_polarity_contextual+coordination"
+     },
+     {
+      "id": "comp_C_subord_1",
+      "text": "turn the knob so that the heating device is on",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_2",
+      "text": "turn on the cooking appliance so that it starts heating",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_subord_3",
+      "text": "turn the knob so that the heating appliance is on",
+      "type": "same_polarity_contextual+subordination"
+     },
+     {
+      "id": "comp_C_embed_1",
+      "text": "i would like you to turn on the kitchen appliance",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_2",
+      "text": "can you please turn on the cooking surface",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_embed_3",
+      "text": "could you please turn on the cooking unit",
+      "type": "same_polarity_contextual+embedded_imperative"
+     },
+     {
+      "id": "comp_C_need_1",
+      "text": "i need the cooking device on",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_2",
+      "text": "i want the heating device turned on",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_need_3",
+      "text": "i need the cooking appliance on",
+      "type": "same_polarity_contextual+need_statement"
+     },
+     {
+      "id": "comp_C_perm_1",
+      "text": "may i have the heating appliance turned on",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_2",
+      "text": "could i have the kitchen appliance switched on",
+      "type": "same_polarity_contextual+permission_directive"
+     },
+     {
+      "id": "comp_C_perm_3",
+      "text": "may i have the cooking surface turned on",
+      "type": "same_polarity_contextual+permission_directive"
+     }
+    ]
+   }
+  }
+ }
+}

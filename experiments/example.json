@@ -1,0 +1,20 @@
+{
+ "name": "example",
+ "about": "Figure 1: one reworded instruction on one scene.",
+ "seed": 7,
+ "sentences": {
+  "source": "listed",
+  "tasks": {
+   "put_the_bowl_on_the_stove": {
+    "init": 30,
+    "sentences": [
+     {
+      "id": "pudding_basin",
+      "text": "put the pudding basin on the stove",
+      "type": "object"
+     }
+    ]
+   }
+  }
+ }
+}

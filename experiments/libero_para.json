@@ -1,0 +1,12 @@
+{
+ "name": "libero_para",
+ "about": "LIBERO-Para: every paraphrase of the 10 LIBERO-Goal tasks (4,092), the paper's experiment. Sentences of a task go round-robin, in file-name order, over init states 1-49.",
+ "seed": 7,
+ "sentences": {
+  "source": "libero_para",
+  "inits": [
+   1,
+   49
+  ]
+ }
+}
