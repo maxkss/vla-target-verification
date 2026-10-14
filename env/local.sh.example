@@ -7,4 +7,4 @@ export HF_HOME=/path/to/huggingface                 # SAM 2.1 and Qwen3.5-9B at 
 export POLICY_PYTHON=/path/to/policy-env/bin/python # JAX / openpi / LIBERO
 export SAM_PYTHON=/path/to/sam-env/bin/python       # SAM 2.1
 export VLM_PYTHON=/path/to/vlm-env/bin/python       # Qwen3.5-9B (transformers)
-export GPUS="0 1"                                   # GPUs to use
+export GPUS="${GPUS:-0 1}"                          # GPUs to use (a value set by the caller wins)
