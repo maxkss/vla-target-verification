@@ -22,17 +22,20 @@ if [ ! -d "$prefix/third_party/LIBERO-Para" ]; then
   git -C "$prefix/third_party/LIBERO-Para" checkout "$(pin libero_para_commit)"
 fi
 
+# Each environment gets exactly the pinned packages (--no-deps: the lists are complete freezes).
+make_env() { [ -x "$prefix/envs/$1/bin/python" ] || uv venv --python 3.11 "$prefix/envs/$1"; }
 # policy: JAX + openpi's dependencies + LIBERO's
-uv venv --python 3.11 "$prefix/envs/policy"
-uv pip install --python "$prefix/envs/policy/bin/python" -r "$repo/env/policy.txt"
-# SAM 2.1: the policy environment's packages plus the SAM 2 package at the pinned commit (no CUDA extension)
-uv venv --python 3.11 "$prefix/envs/sam"
-uv pip install --python "$prefix/envs/sam/bin/python" -r "$repo/env/policy.txt" -r "$repo/env/sam.txt"
-SAM2_BUILD_CUDA=0 uv pip install --python "$prefix/envs/sam/bin/python" --no-deps \
+make_env policy
+uv pip install --python "$prefix/envs/policy/bin/python" --no-deps -r "$repo/env/policy.txt"
+# SAM 2.1: the policy packages (SAM's own versions where they differ) plus the SAM 2 package at the pinned commit,
+# built against the environment's torch without the CUDA extension
+make_env sam
+uv pip install --python "$prefix/envs/sam/bin/python" --no-deps -r "$repo/env/sam.txt"
+SAM2_BUILD_CUDA=0 uv pip install --python "$prefix/envs/sam/bin/python" --no-deps --no-build-isolation \
   "git+https://github.com/facebookresearch/sam2.git@$(pin sam2_package_commit)"
 # VLM: transformers + torch (CUDA 12.6 wheels)
-uv venv --python 3.11 "$prefix/envs/vlm"
-uv pip install --python "$prefix/envs/vlm/bin/python" --index-strategy unsafe-best-match \
+make_env vlm
+uv pip install --python "$prefix/envs/vlm/bin/python" --no-deps --index-strategy unsafe-best-match \
   --extra-index-url https://download.pytorch.org/whl/cu126 -r "$repo/env/vlm.txt"
 
 if [ ! -f "$repo/env/local.sh" ]; then
