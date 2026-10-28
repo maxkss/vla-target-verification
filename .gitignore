@@ -2,3 +2,8 @@ env/local.sh
 __pycache__/
 *.pyc
 .pytest_cache/
+# Made by env/setup.sh and run.sh inside the repo
+/third_party/
+/envs/
+/models/
+/runs/

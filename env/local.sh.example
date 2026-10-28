@@ -1,4 +1,5 @@
 # Machine-specific paths. Copy to env/local.sh (not tracked) and edit; run.sh sources it.
+# env/setup.sh writes it for you with every path inside the repo: runs/, third_party/, envs/, models/.
 export VTV_RUNS=/path/to/runs                       # run folders are created here
 export OPENPI_ROOT=/path/to/openpi                  # openpi at the pinned commit with env/openpi_attention_capture.patch applied
 export OPENPI_CHECKPOINT=/path/to/checkpoints/pi05_libero

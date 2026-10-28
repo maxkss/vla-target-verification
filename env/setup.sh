@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
-# Pinned third-party code and the three Python environments, under PREFIX (default: the folder above the repo).
+# Pinned third-party code and the three Python environments, under PREFIX (default: the repo itself, so everything
+# stays in this folder).
 #
 #   env/setup.sh [PREFIX]
 #
 # Needs git, uv (https://docs.astral.sh/uv/) and an NVIDIA driver for CUDA 12. Writes PREFIX/third_party/{openpi,
-# LIBERO-Para}, PREFIX/envs/{policy,sam,vlm} and env/local.sh (edit the checkpoint and Hugging Face paths there).
+# LIBERO-Para}, PREFIX/envs/{policy,sam,vlm} and env/local.sh, which puts run folders in PREFIX/runs and expects the
+# checkpoint and the Hugging Face cache in PREFIX/models (edit env/local.sh to use other places).
 set -euo pipefail
 repo="$(cd "$(dirname "$0")/.." && pwd)"
-prefix="$(mkdir -p "${1:-$(dirname "$repo")}" && cd "${1:-$(dirname "$repo")}" && pwd)"
+prefix="$(mkdir -p "${1:-$repo}" && cd "${1:-$repo}" && pwd)"
 pin() { python3 -c "import json, sys; print(json.load(open(sys.argv[1]))['pinned'][sys.argv[2]])" "$repo/config.json" "$1"; }
 
 # openpi at the pinned commit, with the read-only attention capture
@@ -42,6 +44,7 @@ if [ ! -f "$repo/env/local.sh" ]; then
   sed -e "s|/path/to/runs|$prefix/runs|" -e "s|/path/to/openpi|$prefix/third_party/openpi|" \
       -e "s|/path/to/LIBERO-Para|$prefix/third_party/LIBERO-Para|" \
       -e "s|/path/to/policy-env|$prefix/envs/policy|" -e "s|/path/to/sam-env|$prefix/envs/sam|" \
-      -e "s|/path/to/vlm-env|$prefix/envs/vlm|" "$repo/env/local.sh.example" > "$repo/env/local.sh"
-  echo "wrote env/local.sh — set OPENPI_CHECKPOINT and HF_HOME"
+      -e "s|/path/to/vlm-env|$prefix/envs/vlm|" -e "s|/path/to/checkpoints|$prefix/models/checkpoints|" \
+      -e "s|/path/to/huggingface|$prefix/models/huggingface|" "$repo/env/local.sh.example" > "$repo/env/local.sh"
+  echo "wrote env/local.sh — put the pi05_libero checkpoint and the Hugging Face models under $prefix/models"
 fi

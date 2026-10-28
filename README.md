@@ -50,7 +50,7 @@ Hyperparameters and heuristics described in prose in the paper are explicitly de
    - $\pi_{0.5}$ LIBERO checkpoint (`pi05_libero`)
    - SAM 2.1 (`hiera-small`)
    - `Qwen3.5-9B`
-4. **Configure Paths:** Copy `env/local.sh.example` to `env/local.sh` and set your local directory paths. At startup, the pipeline verifies the `openpi` commit and patch status, dataset integrity, and checkpoint fingerprints, aborting immediately if any mismatch is detected.
+4. **Configure Paths:** `env/setup.sh` does steps 1–2 and writes `env/local.sh` with every path inside this folder (`third_party/`, `envs/`, `models/` for the checkpoint and Hugging Face cache, `runs/` for run folders; all git-ignored). To set up by hand instead, copy `env/local.sh.example` to `env/local.sh` and set your local directory paths. At startup, the pipeline verifies the `openpi` commit and patch status, dataset integrity, and checkpoint fingerprints, aborting immediately if any mismatch is detected.
 
 ---
 
@@ -79,7 +79,7 @@ Hyperparameters and heuristics described in prose in the paper are explicitly de
 GPUS=0 ./run.sh experiments/comp50.json
 
 # Compare two runs rollout-by-rollout and table-by-table
-python compare.py <run_A> <run_B> <out_dir>
+python compare.py <run_A> <run_B> runs/<out_dir>
 
 # Visualize attention, tracking
 python visualize.py <run_folder> <task/sentence/initNN>
